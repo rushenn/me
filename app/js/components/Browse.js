@@ -420,6 +420,9 @@ export default class Browse extends React.Component {
                                             <a href="" onClick={this.fullScreen.bind(this)}>Fullscreen <i className="fa fa-expand"></i></a>
                                         </li>
                                         <li>
+                                            <a target="_blank" href="https://docs.minio.io/">Documentation <i className="fa fa-book"></i></a>
+                                        </li>
+                                        <li>
                                             <a target="_blank" href="https://gitter.im/minio/minio">Ask for help <i className="fa fa-question-circle"></i></a>
                                         </li>
                                         <li>
