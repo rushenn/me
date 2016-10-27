@@ -560,7 +560,7 @@ export default class Browse extends React.Component {
 
                     <ConfirmModal
                         show={deleteConfirmation.show}
-                        icon='fa fa-attention mci-red'
+                        icon='fa fa-exclamation-triangle mci-red'
                         text='Are you sure you want to delete?'
                         sub='This cannot be undone!'
                         okText='Delete'
